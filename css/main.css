@@ -1,0 +1,209 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+    background-color: beige;
+    
+}
+
+/* ============ Header START ============= */
+
+.navbar-brand span {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.nav-link {
+    margin-right: 40px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: all .5s;
+    color: aliceblue;
+}
+
+.nav-link:hover {
+    color: aquamarine;
+    text-decoration: underline;
+    scale: 1.1;
+}
+
+/* ============ Header END ============= */
+
+/* ============ About START ============= */
+
+.about-section {
+    background-color: aquamarine;
+    min-height: 300px;
+    padding: 30px 0;
+}
+
+.about-section-title {
+    font-size: 57px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.about-section-text {
+    max-width: 741px;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.nav-btn:hover {
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.about-btn {
+    padding: 10px 20px;
+    transition: all .5s;
+}
+
+.about-btn:hover {
+    background-color: green;
+    color: gold;
+}
+
+/* ============ About END ============= */
+
+/* ============ Services START ============= */
+
+.services-section {
+    background-color: rgb(234, 199, 234);
+    padding: 30px 0;
+    min-height: 300px;
+}
+
+.service-card {
+    background-color: beige;
+    padding: 20px;
+    display: flex;   
+    align-items: center;
+    border: 1px solid aquamarine;
+    border-radius: 20px;
+}
+
+.service-content {
+    margin-left: 120px;
+}
+.service-content-title {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 15px;
+
+}
+.service-content-text {
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 292px;
+}
+
+/* ============ Services END ============= */
+
+/* ============ Brands START ============= */
+
+.brands-section {
+    background-color: rgb(186, 230, 215);
+    padding: 30px 0;
+    min-height: 300px;
+}
+
+.brand-card {
+    background-color: antiquewhite;
+    padding: 10px;
+    border: 1px solid violet;
+    border-radius: 20px;
+    height: 100%;
+}
+
+/* ============ Brands END ============= */
+
+/* ============ Developers START ============= */
+
+.developers-section {
+    background-color: rgb(234, 164, 164);
+    padding: 30px 0;
+    min-height: 200px;
+}
+
+.dev-card {
+    background-color: beige;
+    padding: 20px 80px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dev-card-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid blue;
+}
+
+
+.dev-card-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.dev-card-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* ============ Developers END ============= */
+
+/* ============ Footer START ============= */
+
+.footer-section {
+    background-color: gold;
+    padding: 30px;
+}
+
+.footer-icons li {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+/* ============ Footer END ============= */
